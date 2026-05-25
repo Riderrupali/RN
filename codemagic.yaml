@@ -20,7 +20,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - (ridergeming170@gmail.com)
+          - ridergeming170@gmail.com
         notify:
           success: true
           failure: true
