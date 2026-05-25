@@ -7,6 +7,8 @@ workflows:
       groups:
         - google_play_signing
     scripts:
+      - name: Clean Project
+        script: flutter clean
       - name: Get Flutter packages
         script: flutter pub get
       - name: Build APK
