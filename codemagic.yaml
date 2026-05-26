@@ -21,7 +21,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - your-email@example.com
+          - ridergeming170@gmail.com
         notify:
           success: true
           failure: true
