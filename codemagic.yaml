@@ -9,6 +9,7 @@ workflows:
         script: flutter pub get
       - name: Build APK
         script: |
+          flutter clean
           flutter build apk --release \
             --build-name=1.0.0 \
             --build-number=$BUILD_NUMBER
@@ -23,3 +24,4 @@ workflows:
         notify:
           success: true
           failure: true
+          
