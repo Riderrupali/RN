@@ -28,4 +28,4 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
-} // हा कंस पूर्ण करणे महत्त्वाचे आहे
+}
